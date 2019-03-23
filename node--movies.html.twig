@@ -1,0 +1,28 @@
+{% for actor in content.field_actors['#items'].getValue() %}
+    {{actor.value}}<br>
+{% endfor %}
+
+{% if content.field_show_poster_['#items'].getValue()|first.value == "1" %}
+    <div class="movie-poster">
+        {{content.field_movie_poster}}
+    </div>
+{% else %}
+    <h3>I don't want you to see Movie Poster</h3>
+{% endif %}
+
+<div class="director">
+    {{content.field_director}}
+</div>
+<br>
+<br>
+<div class="actors">
+    {{content.field_actors}}
+</div>
+<br>
+<br>
+<div class="premieres">
+    {{content.field_premeires}}
+</div>
+<div class="movie-description">
+    {{content.body}}
+</div>

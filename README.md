@@ -1,3 +1,1 @@
-This is a repository for Drupal 8 Theming video tutorial series. You can [check out the series here](http://watch-learn.com/video-tutorials/tags/drupal-8/).
-
-You can go to [releases](https://github.com/ivandoric/d8theming/releases) to download the code for most of the videos of the series.
+It is a theme designed for drupal which makes use of gulp, css, sass, foundation. It is my first attempt on making a drupal theme and have learned it from watching quite a lot if different videos on youtube
